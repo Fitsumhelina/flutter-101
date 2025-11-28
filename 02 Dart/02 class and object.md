@@ -122,3 +122,60 @@ Name: Rahul, Age: 22
 | **Constructor** | Auto initializes values |
 
 ---
+
+
+# 📘 **Practice Problems on Class & Object**
+
+### 🔹 Level 1 — Basic Object Creation
+
+1. Create a `Book` class with properties: `title`, `author`, `price`.
+   Create two objects and print values.
+
+2. Create a `Laptop` class with `brand` and `ram`.
+   Make a method `showSpecs()` to display details.
+
+3. Make a `Teacher` class with `name`, `subject`, `salary`.
+   Create one object and print teacher details.
+
+4. Create a `Dog` class with `name` and `breed`.
+   Make method `bark()` → print `"Dog is barking!"`.
+
+5. Create a class `Movie` with `name`, `rating(double)` and print `"Hit" if rating > 7 else Flop".
+
+---
+
+### 🔹 Level 2 — Constructors
+
+6. Create a `Person` class with constructor to initialize `name` and `age`.
+   Create two objects and show details.
+
+7. Create `Mobile` class with constructor taking `model`, `price`.
+   Add method `discount()` → print price - 10%.
+
+8. Create `Car` class with `brand`, `year(int)`.
+   Add method `carAge()` → print how old the car is.
+
+9. Create a `BankAccount` class with property `balance`.
+   Constructor sets balance and method `deposit(int amount)` updates it.
+
+10. Make class `Student` with `marks1`, `marks2`, `marks3`.
+    Create method `totalMarks()` and return sum.
+
+---
+
+### 🔹 Level 3 — Methods & Multiple Objects
+
+11. Create a class `Circle` with `radius`.
+    Method → `area()` = 3.14 * r * r.
+
+12. Create a `Product` class with `name` and `price`.
+    Method → `applyGST()` add 18% GST to price.
+
+13. Create a `Bus` class with `seats`, `route`.
+    Method → `availableSeats(int booked)` → return seats - booked.
+
+14. Create `Employee` class with `name`, `salary`.
+    Add method `increment(double percent)` → increase salary.
+
+15. Create a `Shop` class with `productName`, `quantity`, `price`.
+    Method → `billAmount()` = quantity * price.

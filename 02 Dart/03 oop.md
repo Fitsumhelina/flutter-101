@@ -175,3 +175,68 @@ void main() {
 | Static        | Shared values        | `static`              |
 
 ---
+
+# 📘 **OOP Practice Questions (15 Problems)**
+
+### 🔹 Encapsulation
+
+1. Create a class `Bank` with a private variable `_balance`.
+   Add methods `deposit()` and `withdraw()`. Use getter to view balance.
+
+2. Create a class `Student` with private properties `_name` and `_marks`.
+   Use setter to update marks (only if marks ≤ 100) and getter to read both.
+
+3. Create a class `Temperature` with private variable `_celsius`.
+   Add a getter for Celsius and a method to convert to Fahrenheit.
+
+---
+
+### 🔹 Inheritance
+
+4. Create a base class `Device` with method `powerOn()` and derived class `Laptop` that adds `boot()` method. Call both via object.
+
+5. Create parent class `Employee` with name & salary.
+   Child class `Manager` adds bonus. Print total salary.
+
+6. Make class `Animal → Cat`.
+   `Animal` has `eat()` method, `Cat` has `meow()`. Create an object and call both methods.
+
+7. Create base class `Shape` with an empty `area()` method.
+   Derived classes: `Rectangle` and `Circle`. Override area in each.
+
+---
+
+### 🔹 Polymorphism
+
+8. Create `Vehicle` class with `run()`.
+   Make `Bike` and `Car` override `run()` and print different messages.
+
+9. Create class `Payment` with method `pay()`.
+   Subclasses `UPI`, `Card`, `Cash` override `pay()` in different ways.
+
+10. Write a program where `Animal` has sound(), subclasses `Cow`, `Dog`, `Cat` override it.
+    Create a list of animals and use polymorphism to call sound().
+
+---
+
+### 🔹 Abstraction
+
+11. Create `abstract class Phone` with method `call()`.
+    Subclasses `Android` and `iPhone` must implement call().
+
+12. Make `abstract class Shape` containing `area()`.
+    Implement `Triangle` and `Square`.
+
+13. Create abstract class `Account` with `deposit()` & `withdraw()`.
+    Create class `SavingAccount` implementing logic.
+
+---
+
+### 🔹 Constructor + Static + Super
+
+14. Create class `Person` with constructor(name, age).
+    Create `Employee` class extending Person using `super()`.
+
+15. Create `Calculator` class with a static method `add(a,b)` and static constant `pi`.
+    Use without creating an object.
+

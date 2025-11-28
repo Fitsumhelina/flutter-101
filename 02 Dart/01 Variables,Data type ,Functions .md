@@ -180,3 +180,64 @@ fruits.forEach((f) => print(f));
 | For Each  | list iteration     | `fruits.forEach()` |
 
 ---
+
+
+
+# 📘 **Dart Practice Questions (Medium Level)**
+
+### Variables & Data Types
+
+1. **Create variables** to store your name, age, height, and whether you are a student or not. Print them all in a single formatted sentence.
+2. Convert an `int` value to `double` and a `double` value to `int`. Print both results.
+3. Declare a `String` variable and print only the first 3 characters using substring.
+
+---
+
+### String & Number Operations
+
+4. Write a program to input two numbers and print:
+
+   * Sum
+   * Difference
+   * Multiplication
+   * Division
+5. Take two strings `firstName` and `lastName` and print full name using concatenation.
+6. Given `String text = "Dart Programming";`
+   Print the length, uppercase, and lowercase of text.
+
+---
+
+### Lists & Maps
+
+7. Create a list of 5 countries. Add one more country and remove one. Print the final list.
+8. Create a list of numbers and print the biggest and smallest number without using built-in functions like `max` or `min`.
+9. Create a map `{"name":"Alex","age":20,"city":"Delhi"}` and update the city to `"Mumbai"`. Print before and after.
+
+---
+
+### Functions
+
+10. Write a function `square(int n)` that returns square of a number. Call it with any value.
+11. Write a function named `greetUser(String name)` that prints `"Welcome <name>!"`.
+12. Write a function `multiply(int a, int b)` and return the result. Use it inside `main()`.
+
+---
+
+### Decision Making (if-else)
+
+13. Read marks of a student and print output:
+
+* `>=90` → "Outstanding"
+* `>=75` → "Excellent"
+* `>=50` → "Good"
+* else → "Needs Improvement"
+
+---
+
+### Loops
+
+14. Print the table of number `5` using `for loop`.
+    Example output:
+    `5 x 1 = 5`, `5 x 2 = 10` ...
+15. Use a `for-each loop` to print elements of list:
+    `["Red","Green","Blue","Yellow"]`

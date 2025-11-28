@@ -135,3 +135,129 @@ void main() async {
 ```
 
 ---
+
+
+#  **15 Dart Future Practice Questions**
+
+### 📄 Basic Understanding
+
+1. What is a Future in Dart? Explain in one or two lines.
+2. Write an analogy of Future (different from pizza example).
+3. What is the difference between Future and async/await?
+
+---
+
+### 🧪 Code Output Prediction
+
+4. Predict the output:
+
+```dart
+print("A");
+Future(() => print("B"));
+print("C");
+```
+
+---
+
+5. Predict the output:
+
+```dart
+Future.delayed(Duration(seconds: 1), (){
+  print("Loaded");
+});
+print("Start");
+```
+
+---
+
+6. What will happen here? Will it wait or not?
+
+```dart
+Future<String> getName() {
+  return Future.delayed(Duration(seconds: 2), () => "Alex");
+}
+
+void main(){
+  print(getName());
+}
+```
+
+---
+
+### 🛠 Coding Tasks
+
+7. Create a Future called `fetchWeather()` that returns `"Sunny"` after 2 seconds.
+
+8. Write a program using **async + await** that prints:
+
+```
+Start
+Fetching Data...
+Data Loaded!
+End
+```
+
+---
+
+9. Create a Future `getMarks()` that returns 88 after 3 seconds and print it.
+
+---
+
+10. Write a Future function with **then()** instead of await:
+
+```
+Output:
+Reading File...
+File Read Complete!
+```
+
+---
+
+11. Create a function `processPayment()`
+    → wait 4 seconds
+    → then print `"Payment Successful"`.
+
+---
+
+### 🔥 Slight Advanced
+
+12. Write a Future with **try/catch** that throws `"Server Error"`.
+
+---
+
+13. Run two Futures simultaneously using **Future.wait()**:
+
+```
+Task1 → completes in 1 second
+Task2 → completes in 2 seconds
+Print final list of results
+```
+
+---
+
+14. Convert the following `.then()` code to `async / await`:
+
+```dart
+getUser().then((value) => print(value));
+```
+
+---
+
+15. Write a Future chain using:
+
+```
+.then()
+.catchError()
+.whenComplete()
+```
+
+Output format:
+
+```
+Data received
+Error (if any)
+Process Finished
+```
+
+---
+
