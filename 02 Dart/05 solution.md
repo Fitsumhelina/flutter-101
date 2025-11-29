@@ -923,9 +923,6 @@ void main(){
 }
 ```
 
-Here are **complete answers with explanations and Dart code** for all **15 Future practice questions** 🚀
-
----
 
 # **📄 Basic Understanding**
 
@@ -1160,14 +1157,3 @@ void main() {
   .whenComplete(() => print("Process Finished"));
 }
 ```
-
----
-
-If you want, I can give you **20 more advanced async-Future questions** with tasks using:
-
-✔ Future Streams
-✔ Timeout
-✔ Multiple async calls
-✔ Error handling
-
-Just reply **"Next Level Futures"** 🚀🔥
